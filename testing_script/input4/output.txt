@@ -1,0 +1,435 @@
+
+PYTHON SCRIPT working_combined_dict_except_zeropos_reconstruction.py:
+
+RUN 1:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 71.046 s
+
+RUN 2:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 59.2543 s
+
+RUN 3:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 71.3033 s
+
+RUN 4:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 69.9072 s
+
+RUN 5:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 68.2734 s
+
+PYTHON SCRIPT working_combined_dict_reconstruction.py:
+
+RUN 1:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 61.9364 s
+
+RUN 2:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 61.4211 s
+
+RUN 3:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 69.2637 s
+
+RUN 4:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 58.6978 s
+
+RUN 5:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 72.8167 s
+
+PYTHON SCRIPT working_integer_dir_reconstruction.py:
+
+RUN 1:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 66.1299 s
+
+RUN 2:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 67.1925 s
+
+RUN 3:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 68.5851 s
+
+RUN 4:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 64.7941 s
+
+RUN 5:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 67.8156 s
+
+PYTHON SCRIPT working_integer_dir_reconstruction_with_combined_heuristic.py:
+
+RUN 1:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 85.6529 s
+
+RUN 2:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 73.0655 s
+
+RUN 3:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 88.4708 s
+
+RUN 4:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 72.4002 s
+
+RUN 5:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 87.4732 s
+
+PYTHON SCRIPT working_path_reconstruction.py:
+
+RUN 1:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 55.9403 s
+
+RUN 2:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 67.4851 s
+
+RUN 3:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 66.7354 s
+
+RUN 4:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 56.3354 s
+
+RUN 5:
+Initial state:
+4 6 2 9
+C 5 A 0
+8 F 7 B
+D 3 E 1
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 44
+   Actions in minimum path : ['Right', 'Down', 'Down', 'Right', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left']
+   Nodes generated : 2366917
+   Time taken : 66.2098 s

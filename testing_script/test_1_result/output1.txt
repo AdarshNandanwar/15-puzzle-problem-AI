@@ -1,0 +1,435 @@
+
+PYTHON SCRIPT working_combined_dict_except_zeropos_reconstruction.py:
+
+RUN 1:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.001 s
+
+RUN 2:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 3:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 4:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 5:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+PYTHON SCRIPT working_combined_dict_reconstruction.py:
+
+RUN 1:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 2:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 3:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 4:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 5:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+PYTHON SCRIPT working_integer_dir_reconstruction.py:
+
+RUN 1:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 2:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 3:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 4:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 5:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+PYTHON SCRIPT working_integer_dir_reconstruction_with_combined_heuristic.py:
+
+RUN 1:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0009 s
+
+RUN 2:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0009 s
+
+RUN 3:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0009 s
+
+RUN 4:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0009 s
+
+RUN 5:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0009 s
+
+PYTHON SCRIPT working_path_reconstruction.py:
+
+RUN 1:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 2:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 3:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 4:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
+
+RUN 5:
+Initial state:
+4 2 6 3
+8 1 7 B
+C 5 0 F
+D 9 A E
+Goal state:
+0 1 2 3
+4 5 6 7
+8 9 A B
+C D E F
+Output:
+   Minimum path cost : 14
+   Actions in minimum path : ['Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left']
+   Nodes generated : 31
+   Time taken : 0.0007 s
